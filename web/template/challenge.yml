@@ -1,0 +1,60 @@
+name: template
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > now i can make websites using templates can you help me test them
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{4lw4ys_pr0t3c7_y0ur_w3bs173s_fr0m_S3rv3r_s1d3_t3mpl473_1nj3c710n}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - sqli
+
+tags:
+  - sqli
+
+files:
+  - challenge/app.js
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: sqli
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: sqli
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

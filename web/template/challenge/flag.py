@@ -1,0 +1,1 @@
+FLAG='Alphabit{4lw4ys_pr0t3c7_y0ur_w3bs173s_fr0m_S3rv3r_s1d3_t3mpl473_1nj3c710n}'

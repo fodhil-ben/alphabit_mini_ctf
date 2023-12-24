@@ -1,0 +1,60 @@
+name: headers_hunter
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > i keep hearing about HTTP protocol  
+  > what is his relation with websites
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{GG_Y0u_kn0w_HTTP_headers_y0u_4r3_7h3_b3s7_h34d3rs_hun73r}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - http headers
+
+tags:
+  - http_methods
+  - http_headers
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: sqli
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: sqli
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

@@ -1,0 +1,59 @@
+name: Inspection
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > i made a static web page that have a lot of secrets can you find them
+  > i hid them very well, even web crawlers cant find them
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{Y0U_4R3_4_R34L_1NSP3CT0R!!}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+
+tags:
+
+
+files:
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: inspection
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: inspection
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

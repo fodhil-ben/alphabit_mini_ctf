@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1337:1337
+    environment:
+      - FLAG=Alphabit{N0w_y0u_sh0u1d_pr073c7_y0ur_s3lf_fr0m_SQL_injection}
+    restart: always

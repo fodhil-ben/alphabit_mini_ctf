@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1335:1335
+    environment:
+      - FLAG=Alphabit{N3v3r_Trust_Th3_Us3r_SSRF_1s_4_s3ri0us_pr0bl3m}
+    restart: always
