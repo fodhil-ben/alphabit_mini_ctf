@@ -1,0 +1,60 @@
+name: mongoDB 
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: medium
+
+description: |
+  > mongodb is really secure it does not use sql.
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{d0n7_bl4m3_SQL_b4d_d3v3l0p3rs}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - sqli
+
+tags:
+  - sqli
+
+files:
+  - challenge/app.js
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: sqli
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: sqli
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

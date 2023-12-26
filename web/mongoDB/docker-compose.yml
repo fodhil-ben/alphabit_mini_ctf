@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1330:1330
+    depends_on:
+      - database
+    environment:
+      - FLAG=Alphabit{d0n7_bl4m3_SQL_b4d_d3v3l0p3rs}
+      - PASSWORD=secretPassowrdYoucanneverguessIt
+      - DB_URI=mongodb://database:27017/mongoDB
+    restart: always
+  database:
+    image: mongo:latest
+    volumes:
+      - mongodata:/data/db
+    ports:
+      - 27017:27017
+    restart: always
+
+volumes:
+  mongodata: {}
