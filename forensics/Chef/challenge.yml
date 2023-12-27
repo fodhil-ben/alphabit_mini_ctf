@@ -1,0 +1,39 @@
+name: Chef
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: easy
+
+description: |
+  > My friend said he sent me a secret message, He said there's a chef that can help me recover the message
+
+  **Author** : Graychi
+flags:
+  - Alphabit{L0ng_Tr1P_Gl4D_y0U_M4d3_1T}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - bases? 
+
+tags:
+  - bases?
+
+files:
+  - challenge/chall.txt
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+

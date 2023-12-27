@@ -1,0 +1,39 @@
+name: Meta
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: easy
+
+description: |
+  > I've heard a lot of comments recently about an upcomming event!
+
+  **Author** : Graychi
+flags:
+  - Alphabit{R41s3_Th3_b4R_h1Gh3r!!}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - easy
+
+tags:
+  - easy
+
+files:
+  - challenge/alpha.png
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+
