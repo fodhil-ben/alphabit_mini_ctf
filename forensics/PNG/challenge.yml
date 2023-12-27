@@ -1,0 +1,39 @@
+name: PNG
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: easy
+
+description: |
+  > Someone has changed the order of my png chunks, can you help me fix them ?
+
+  **Author** : Graychi
+flags:
+  - Alphabit{Sh1ba_1nU_t0_Th3_M00n}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - png
+
+tags:
+  - png
+
+files:
+  - challenge/chall.png
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+
