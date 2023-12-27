@@ -1,4 +1,4 @@
-# SQLI
+# We Will Rock You
 
 **`Author:`** [Graychi](https://github.com/NassimMansouri)
 
