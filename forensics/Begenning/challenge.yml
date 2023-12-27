@@ -1,0 +1,39 @@
+name: Beginning
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: easy
+
+description: |
+  > What do you call a group of characters ? 
+
+  **Author** : Graychi
+flags:
+  - Alphabit{0h_Th4t_w4s_e4sy!}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - stego
+
+tags:
+  - stego
+
+files:
+  - challenge/regular.jpg
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+
