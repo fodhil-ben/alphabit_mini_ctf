@@ -1,0 +1,37 @@
+name: medXOR
+author: Mouh_Bbt
+author_link: https://github.com/MouhBbt
+
+category: crypto
+difficulty: ezmed
+
+description: |
+  > This time it's not that simple
+
+  **Author** : Mouh_Bbt
+flags:
+  - Alphabit{Gg_y0u_s0lv3_1t_3v3n_w1th0ut_th3_key}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - Xor
+  - key
+  - bruteforce
+
+tags:
+  - Xor 
+  - programming
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
