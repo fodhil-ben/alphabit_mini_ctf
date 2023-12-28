@@ -1,4 +1,4 @@
-# {Classic_Cipher}
+# Classic_Cipher
 
 **`Author:`** [Mouh_Bbt](https://github.com/MouhBbt)
 

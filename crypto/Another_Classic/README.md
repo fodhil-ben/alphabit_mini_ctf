@@ -1,4 +1,4 @@
-# {Another_Classic}
+# Another_Classic
 
 **`Author:`** [Mouh_Bbt](https://github.com/MouhBbt)
 

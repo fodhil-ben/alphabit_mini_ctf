@@ -1,4 +1,4 @@
-# {Another_Classic}
+# Another_Classic
 
 ## Write-up
 

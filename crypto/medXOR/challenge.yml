@@ -29,6 +29,8 @@ tags:
   - Xor 
   - programming
 
+files:
+  - challenge/chall.py
 
 # DO NOT CHANGE
 

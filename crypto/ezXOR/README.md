@@ -1,4 +1,4 @@
-# {ezXOR}
+# ezXOR
 
 **`Author:`** [Mouh_Bbt](https://github.com/MouhBbt)
 

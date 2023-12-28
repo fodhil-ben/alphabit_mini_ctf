@@ -27,6 +27,8 @@ tags:
   - Xor 
   - programming
 
+files:
+  - challenge/ezxor.py
 
 # DO NOT CHANGE
 

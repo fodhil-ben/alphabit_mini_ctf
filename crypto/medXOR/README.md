@@ -1,4 +1,4 @@
-# {medXOR}
+# medXOR
 
 **`Author:`** [Mouh_Bbt](https://github.com/MouhBbt)
 

@@ -1,4 +1,4 @@
-# {EZrsa}
+# EZrsa
 
 **`Author:`** [Mouh_Bbt](https://github.com/MouhBbt)
 
