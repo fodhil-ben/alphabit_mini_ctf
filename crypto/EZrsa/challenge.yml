@@ -1,0 +1,38 @@
+name: EZrsa
+author: Mouh_Bbt
+author_link: https://github.com/MouhBbt
+
+category: crypto
+difficulty: ezmed
+
+description: |
+  > Have you ever heard about the RSA encryption algorithm?  
+  > Use it to unveil the hidden message then wrap it with Alphabit{} to solve the challenge 
+
+  **Author** : Mouh_Bbt
+flags:
+  - Alphabit{SM4LL_N_PR0BL3M}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - RSA encryption 
+
+tags:
+  - RSA 
+  - Mathemathics
+
+files:
+  - challenge/chall.txt
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
