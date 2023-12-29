@@ -1,0 +1,59 @@
+name: Bird Cage
+author: kanyo
+author_link: https://github.com/Chaelsoo
+
+category: pwn
+difficulty: medium
+
+description: |
+  > Can you find them ? 
+
+  **Author** : kanyo
+flags:
+  - Alphabit{c4n4ryy_l33k_4nd_r0p}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - pwn
+
+tags:
+  - pwn
+
+files:
+  - challenge/chal
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: Bird Cage
+  deployed: false
+  replicasNumber: 1
+  type: http
+  dockerImage: Bird Cage
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi
+  requests:
+    cpu: 100m
+    memory: 200Mi
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other:
+    # parameters of pod annotations
+    podAnnotations: {}
