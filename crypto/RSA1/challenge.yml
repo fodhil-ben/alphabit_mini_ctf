@@ -1,4 +1,4 @@
-name: EZrsa
+name: RSA1
 author: Mouh_Bbt
 author_link: https://github.com/MouhBbt
 
@@ -18,8 +18,6 @@ extra:
     initial: 500
     decay: ${DECAY} # leave it like this
     minimum: 50
-
-connection_info: connection_info
 
 topics:
   - RSA encryption 

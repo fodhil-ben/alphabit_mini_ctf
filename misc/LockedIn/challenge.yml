@@ -1,0 +1,34 @@
+name: LockedIn
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > "in the beginning you will feel like you are locked in a cage. make sure to find your passion and keep working hard till you make it" - fodhil benhiba-
+  > i hate making quotes and talking wisely but i'm in a place where i really have to.
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{WE_ALL_HAD_A_STARTING_POINT_MAKE_SURE_TO_WORK_HARD_TO_MAKE_THE_BEST_ENDING}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - OSINT
+
+tags:
+  - OSINT
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

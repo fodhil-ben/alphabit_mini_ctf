@@ -1,0 +1,1 @@
+FLAG=b"Alphabit{CRYPT0_1$_JU$T_M4TH_4FT3R_4LL}"

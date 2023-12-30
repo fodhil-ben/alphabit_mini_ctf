@@ -1,0 +1,55 @@
+name: privilege
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: misc
+difficulty: medium
+
+description: |
+  > do you think you have any privileges, believe me you don't. 
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{PR1V1L3G3_3$CALAT10N_U$1NG_$UD0}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - priv-esc
+
+tags:
+  - privilege-escalation
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: privilege
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: privilege
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

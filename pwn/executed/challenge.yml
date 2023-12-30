@@ -1,0 +1,57 @@
+name: executed 
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: pwn
+difficulty: medium
+
+description: |
+  > im new to c language im making some basic functions. 
+  **Author** : F0DH1L
+flags:
+  - Alphabit{$H3LLC0D3_G0T_1NJ3C73D_1NT0_7H3_$T4CK}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - shellcode
+
+files:
+  - challenge/chall
+  - challenge/chall.c
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: executed
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: executed
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

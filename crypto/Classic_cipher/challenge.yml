@@ -19,8 +19,6 @@ extra:
     decay: ${DECAY} # leave it like this
     minimum: 50
 
-connection_info: connection_info
-
 topics:
   - Caeser Cipher
 

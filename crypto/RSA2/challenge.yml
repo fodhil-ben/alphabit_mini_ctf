@@ -1,0 +1,35 @@
+name: RSA2
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: crypto
+difficulty: ezmed
+
+description: |
+  > i learned from the last mistake i made my n so long you can never factorize it
+
+  **Author** : F0DH1L
+flags:
+  - FLAG="Alphabit{be_careful_which_value_you_put_in_e}"
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - RSA encryption 
+
+tags:
+  - RSA 
+  - Mathemathics
+
+files:
+  - challenge/chall.txt
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

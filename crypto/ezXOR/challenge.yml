@@ -18,17 +18,14 @@ extra:
     decay: ${DECAY} # leave it like this
     minimum: 50
 
-connection_info: connection_info
-
 topics:
   - Xor
 
 tags:
-  - Xor 
   - programming
 
 files:
-  - challenge/ezxor.py
+  - challenge/chall.py
 
 # DO NOT CHANGE
 

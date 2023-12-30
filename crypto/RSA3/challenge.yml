@@ -1,0 +1,35 @@
+name: RSA3
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: crypto
+difficulty: medium
+
+description: |
+  > i wonder why we study math at the university.
+
+  **Author** : F0DH1L
+flags:
+  - FLAG="Alphabit{CRYPT0_1$_JU$T_M4TH_4FT3R_4LL}"
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - RSA encryption 
+
+tags:
+  - RSA 
+  - Mathemathics
+
+files:
+  - challenge/chall.txt
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
