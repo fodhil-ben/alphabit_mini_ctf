@@ -10,7 +10,7 @@ WORKDIR /challenge
 COPY challenge .
 
 RUN chown -R root:root .
-RUN chmod +x ret2win entrypoint.sh
+RUN chmod +x chal entrypoint.sh
 
 EXPOSE 1003
 
