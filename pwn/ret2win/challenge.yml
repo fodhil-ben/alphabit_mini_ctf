@@ -1,4 +1,4 @@
-name: ret2win
+name: sixty four
 author: kanyo
 author_link: https://github.com/Chaelsoo
 
@@ -10,7 +10,7 @@ description: |
 
   **Author** : kanyo
 flags:
-  - Alphabit{}
+  - Alphabit{Arg1D4nc3_W1th_Win}
 type: dynamic
 value: 500
 extra:
@@ -38,11 +38,11 @@ version: "0.1"
 deployment:
   autoban: false
   egress: "allow"
-  name: ret2win
+  name: sixty four
   deployed: false
   replicasNumber: 1
   type: http
-  dockerImage: ret2win
+  dockerImage: sixty four
   # If the challenge don't expose any port then leave it empty
   containerPort: 80
   limits:

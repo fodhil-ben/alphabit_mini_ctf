@@ -1,7 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void setup() {
+    setvbuf(stdout, NULL, _IONBF, 0);
+    setvbuf(stdin, NULL, _IONBF, 0);
+    setvbuf(stderr, NULL, _IONBF, 0);
+}
+
+
 int main(void){
+
+    setup();
 
     char br[60];
     int pass1;
