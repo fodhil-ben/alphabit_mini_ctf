@@ -1,0 +1,37 @@
+name: Cake Baker
+author: kanyo
+author_link: https://github.com/Chaelsoo
+
+category: rev
+difficulty: ezmed
+
+description: |
+  > I heard u can cook, show me your skills then we'll see
+  > wrap the password in the flag format "Alphabit{}"
+
+  **Author** : kanyo
+flags:
+  - Alphabit{d3l1c10us_pyth0n_f3ast_f0r_th3_bra1n}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - pwn
+
+tags:
+  - pwn
+
+files:
+  - challenge/cook.pyc
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,59 @@
+name: Secret Number
+author: kanyo
+author_link: https://github.com/Chaelsoo
+
+category: pwn
+difficulty: easy
+
+description: |
+  > How good are you with numbers ?
+
+  **Author** : kanyo
+flags:
+  - Alphabit{S3cr3t_Num6er_Ach13ved}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - pwn
+
+tags:
+  - pwn
+
+files:
+  - challenge/secret_number_game
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: Secret Number
+  deployed: false
+  replicasNumber: 1
+  type: http
+  dockerImage: Secret Number
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi
+  requests:
+    cpu: 100m
+    memory: 200Mi
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other:
+    # parameters of pod annotations
+    podAnnotations: {}
