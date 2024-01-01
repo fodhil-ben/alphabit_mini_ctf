@@ -1,17 +1,16 @@
-name: Cake Baker
+name: Hidden in plain sight
 author: kanyo
 author_link: https://github.com/Chaelsoo
 
-category: rev
+category: forensics
 difficulty: ezmed
 
 description: |
-  > I heard u can cook, show me your skills then we'll see
-  > wrap the password in the flag format "Alphabit{}"
+  > Winter is coming
 
   **Author** : kanyo
 flags:
-  - Alphabit{d3l1c10us_pyth0n_f3ast_f0r_th3_bra1n}
+  - Alphabit{Sn0w_H1d3s_Th3_K3y}
 type: dynamic
 value: 500
 extra:
@@ -22,13 +21,14 @@ extra:
 connection_info: connection_info
 
 topics:
-  - rev
+  - forensics
 
 tags:
-  - rev
+  - forensics
 
 files:
-  - challenge/cook.pyc
+  - challenge/synopsis
+  - challenge/got.jpg
 
 # DO NOT CHANGE
 

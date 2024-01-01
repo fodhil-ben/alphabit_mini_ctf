@@ -1,17 +1,16 @@
-name: Cake Baker
+name: Dungeon
 author: kanyo
 author_link: https://github.com/Chaelsoo
 
-category: rev
-difficulty: ezmed
+category: pwn
+difficulty: medium
 
 description: |
-  > I heard u can cook, show me your skills then we'll see
-  > wrap the password in the flag format "Alphabit{}"
+  > You find yourself trapped within The Dungeon, with freedom just a key away. what will you do ?
 
   **Author** : kanyo
 flags:
-  - Alphabit{d3l1c10us_pyth0n_f3ast_f0r_th3_bra1n}
+  - Alphabit{Crack3d_Cod3_D00r}
 type: dynamic
 value: 500
 extra:
@@ -22,13 +21,15 @@ extra:
 connection_info: connection_info
 
 topics:
-  - rev
+  - obfuscation
+  -js
 
 tags:
-  - rev
+  - obfuscation
+  - js
 
 files:
-  - challenge/cook.pyc
+  - challenge/dungeon
 
 # DO NOT CHANGE
 

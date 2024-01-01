@@ -1,4 +1,4 @@
-name: sixty four
+name: Cards Master
 author: kanyo
 author_link: https://github.com/Chaelsoo
 
@@ -6,11 +6,11 @@ category: pwn
 difficulty: ezmed
 
 description: |
-  > Hidden in plain sight.
+  > Lets see if you can win the game
 
   **Author** : kanyo
 flags:
-  - Alphabit{Arg1D4nc3_W1th_Win}
+  - Alphabit{0xR3v3rs3_Th3_S33d}
 type: dynamic
 value: 500
 extra:
@@ -22,12 +22,13 @@ connection_info: connection_info
 
 topics:
   - pwn
+  - seed
 
 tags:
   - pwn
 
 files:
-  - challenge/ret2win
+  - challenge/chal
 
 # DO NOT CHANGE
 
@@ -38,11 +39,11 @@ version: "0.1"
 deployment:
   autoban: false
   egress: "allow"
-  name: sixty four
+  name: Cards Master
   deployed: false
   replicasNumber: 1
   type: http
-  dockerImage: sixty four
+  dockerImage: Cards Master
   # If the challenge don't expose any port then leave it empty
   containerPort: 80
   limits:
