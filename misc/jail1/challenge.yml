@@ -1,0 +1,56 @@
+name: jail1
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: misc
+difficulty: medhard
+
+description: |
+  > can you escape
+  > this one is easy, wait for the second one. 
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{J41L_3SC4P3D_SUCC3SSFULLY}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - python
+
+tags:
+  - python
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: jail1
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: jail1
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

@@ -1,0 +1,57 @@
+name: format 
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: pwn
+difficulty: easy
+
+description: |
+  > what are all the formats available in c language ?
+  **Author** : F0DH1L
+flags:
+  - Alphabit{4LW4YS_L00K_F0R_Y0UR_F0RM4T_SP3C1F13R}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - format-string
+
+files:
+  - challenge/chall
+  - challenge/chall.c
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: format
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: format
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+

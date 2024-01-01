@@ -1,0 +1,57 @@
+name: jail2
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: misc
+difficulty: medhard
+
+description: |
+  > you tricked me now i will make it harder for you
+  > flag in flag.txt
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{BL4CKL1STS_W3R3_M4D3_T0_B3_BYP4SS3D}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - python
+
+tags:
+  - python
+  - linux
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: jail2
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: jail2
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
+
