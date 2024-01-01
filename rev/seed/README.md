@@ -1,13 +1,13 @@
-# sixty four
+# Cards Master
 
 **`Author:`** [kanyo](https://github.com/Chaelsoo)
 
 ## Description
 
-> Hidden in plain sight.
+> Lets see if you can win the game
 
 - **Files**
-- [chal](./challenge/chal)
+- [synopsis](./challenge/chal)
 
 ## Solution
 

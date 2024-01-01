@@ -1,0 +1,3 @@
+steghide extract -sf got.jpg
+SNOW.EXE -C -p "Gh0st" synopsis flag
+Alphabit{Sn0w_H1d3s_Th3_K3y}
