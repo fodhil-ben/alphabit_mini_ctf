@@ -1,0 +1,59 @@
+name: thirty-two
+author: F0DH1L
+author_link: https://github.com/Chaelsoo
+
+category: pwn
+difficulty: medium
+
+description: |
+  > Same Challenge, Different Architecture 
+
+  > [chall](https://drive.google.com/drive/u/0/folders/1awnV4hMhtERSs8GtMAtTH8517qECIsxA)
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{N1C3_Y0U_KN0W_C4LL1NG_C0NV3NT1ONS}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - pwn
+
+tags:
+  - pwn
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: thirty-two
+  deployed: false
+  replicasNumber: 1
+  type: http
+  dockerImage: thirty-two
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi
+  requests:
+    cpu: 100m
+    memory: 200Mi
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other:
+    # parameters of pod annotations
+    podAnnotations: {}
