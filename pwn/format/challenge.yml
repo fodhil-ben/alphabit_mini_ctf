@@ -7,6 +7,8 @@ difficulty: easy
 
 description: |
   > what are all the formats available in c language ?
+  >[files](https://drive.google.com/drive/folders/1uuIE4IzL7fyD2XpC7m_BPci3ZI27V23T)
+  >
   **Author** : F0DH1L
 flags:
   - Alphabit{4LW4YS_L00K_F0R_Y0UR_F0RM4T_SP3C1F13R}
@@ -22,9 +24,6 @@ connection_info: connection_info
 topics:
   - format-string
 
-files:
-  - challenge/chall
-  - challenge/chall.c
   
 # DO NOT CHANGE
 

@@ -8,8 +8,8 @@ difficulty: medium
 description: |
   > You are on level 4, nice i will give you an other gift for that
   > btw still not convinced about why we study math
-  > [chall.txt] (https://drive.google.com/drive/folders/1X50q1u2KEbE_ycVM5E6cEtkMc2ZU4VRf)
-
+  > [chall.txt](https://drive.google.com/drive/folders/1X50q1u2KEbE_ycVM5E6cEtkMc2ZU4VRf)
+  >
   **Author** : F0DH1L
 flags:
   - FLAG="Alphabit{N0W_Y0U_KN0W_WHY_ALG3BRA_1S_V3RY_US3FUL}"
