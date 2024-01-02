@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > How good are you with numbers ?
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
@@ -22,12 +23,6 @@ connection_info: connection_info
 
 topics:
   - pwn
-
-tags:
-  - pwn
-
-files:
-  - challenge/secret_number_game
 
 # DO NOT CHANGE
 

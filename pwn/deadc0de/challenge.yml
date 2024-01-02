@@ -7,10 +7,12 @@ difficulty: easy
 
 description: |
   > basic
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
   - Alphabit{Param3t3r_Qu3st}
+
 type: dynamic
 value: 500
 extra:
@@ -22,13 +24,6 @@ connection_info: connection_info
 
 topics:
   - pwn
-
-tags:
-  - pwn
-
-files:
-  - challenge/deadc0de
-  - challenge/vuln.c
 
 # DO NOT CHANGE
 

@@ -7,6 +7,7 @@ difficulty: medium
 
 description: |
   > Now that you've found the key, you have to clear your way out,there are obstacles ahead.
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
@@ -27,8 +28,6 @@ topics:
 tags:
   - obfuscation
   - python
-files:
-  - challenge/dungeon2
 
 # DO NOT CHANGE
 

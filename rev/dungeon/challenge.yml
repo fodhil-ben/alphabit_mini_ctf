@@ -7,6 +7,7 @@ difficulty: medium
 
 description: |
   > You find yourself trapped within The Dungeon, with freedom just a key away. what will you do ?
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
@@ -21,15 +22,11 @@ extra:
 connection_info: connection_info
 
 topics:
-  - obfuscation
-  -js
+  - reverse
 
 tags:
   - obfuscation
   - js
-
-files:
-  - challenge/dungeon
 
 # DO NOT CHANGE
 

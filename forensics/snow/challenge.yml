@@ -7,6 +7,7 @@ difficulty: ezmed
 
 description: |
   > Winter is coming
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
@@ -22,13 +23,6 @@ connection_info: connection_info
 
 topics:
   - forensics
-
-tags:
-  - forensics
-
-files:
-  - challenge/synopsis
-  - challenge/got.jpg
 
 # DO NOT CHANGE
 

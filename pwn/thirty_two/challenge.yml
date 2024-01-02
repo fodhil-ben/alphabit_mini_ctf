@@ -25,10 +25,6 @@ connection_info: connection_info
 topics:
   - pwn
 
-tags:
-  - pwn
-
-
 # DO NOT CHANGE
 
 state: hidden
