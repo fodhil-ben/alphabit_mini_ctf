@@ -1,6 +1,6 @@
 # African Cup
 
-**`Author:`** [F0DH1L](https://github.com/blueg0)
+**`Author:`** [blue._.g0](https://github.com/blueg0)
 
 ## Description
    
