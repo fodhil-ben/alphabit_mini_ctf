@@ -1,0 +1,36 @@
+name: Assemble
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: rev
+difficulty: easy
+
+description: |
+  > What do you know about assembly ?
+  **Author** : blue._.g0
+flags:
+  - Alphabit{hmmm_I_c4N_D0_tH1s_4ll_D4y}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - rev
+
+tags:
+  - Assembly
+  - rev
+
+files:
+  - https://drive.google.com/drive/u/0/folders/1_DJv6DxKXas-UNz9pJyAOaxsAkSZTJJM
+
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
