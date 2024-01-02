@@ -8,6 +8,7 @@ difficulty: medium
 description: |
   > You are on level 4, nice i will give you an other gift for that
   > btw still not convinced about why we study math
+  > [chall.txt] (https://drive.google.com/drive/folders/1X50q1u2KEbE_ycVM5E6cEtkMc2ZU4VRf)
 
   **Author** : F0DH1L
 flags:
@@ -25,9 +26,6 @@ topics:
 tags:
   - RSA 
   - Mathemathics
-
-files:
-  - challenge/chall.txt
 
 # DO NOT CHANGE
 

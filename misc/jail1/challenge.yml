@@ -8,6 +8,8 @@ difficulty: medhard
 description: |
   > can you escape
   > this one is easy, wait for the second one. 
+  >
+  > [challenge.py] (https://drive.google.com/drive/folders/1HbnnQCF2MmH-gxcURKcQYHujq4Rl1vH1)
 
   **Author** : F0DH1L
 flags:
@@ -24,9 +26,6 @@ topics:
 
 tags:
   - python
-
-files:
-  - challenge/challenge.py
 
 # DO NOT CHANGE
 

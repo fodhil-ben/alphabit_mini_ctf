@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > im sure u heard about SQL but did you hear about SQLI
+  > [app.js](https://drive.google.com/drive/folders/18CngM8GkJV-7NAEBBPyTAptO3TabQuvq)
 
   **Author** : F0DH1L
 flags:
@@ -26,9 +27,6 @@ topics:
 tags:
   - sqli
 
-files:
-  - challenge/app.js
-  
 # DO NOT CHANGE
 
 state: hidden

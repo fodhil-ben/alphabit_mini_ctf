@@ -7,6 +7,7 @@ difficulty: ezmed
 
 description: |
   > All you need is there, if you look close enough
+  >[files](https://drive.google.com/drive/folders/1uuIE4IzL7fyD2XpC7m_BPci3ZI27V23T)
 
   **Author** : kanyo
 flags:
@@ -25,10 +26,6 @@ topics:
 
 tags:
   - pwn
-
-files:
-  - challenge/strings
-  - challenge/vuln.c
 
 # DO NOT CHANGE
 

@@ -8,6 +8,7 @@ difficulty: ezmed
 description: |
   > i learned from the last mistake i made my n so long you can never factorize it
 
+  > (chall.txt) [https://drive.google.com/drive/folders/1XYkZJ7tpQ5WETphL4dJmmvFV97gU8QUP]
   **Author** : F0DH1L
 flags:
   - FLAG="Alphabit{be_careful_which_value_you_put_in_e}"
@@ -24,9 +25,6 @@ topics:
 tags:
   - RSA 
   - Mathemathics
-
-files:
-  - challenge/chall.txt
 
 # DO NOT CHANGE
 

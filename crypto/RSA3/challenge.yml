@@ -8,6 +8,7 @@ difficulty: medium
 description: |
   > i wonder why we study math at the university.
 
+  >[chall.txt](https://drive.google.com/drive/folders/19f6WA7-pA1qgxrdsc_jTnZJQUDTndEyW)
   **Author** : F0DH1L
 flags:
   - FLAG="Alphabit{CRYPT0_1$_JU$T_M4TH_4FT3R_4LL}"
@@ -25,8 +26,6 @@ tags:
   - RSA 
   - Mathemathics
 
-files:
-  - challenge/chall.txt
 
 # DO NOT CHANGE
 

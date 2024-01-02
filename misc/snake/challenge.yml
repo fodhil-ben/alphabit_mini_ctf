@@ -8,6 +8,8 @@ difficulty: medhard
 description: |
   > people keep saying what is the best programing language, isn't that so obvious.  
 
+  > [challenge.py](https://drive.google.com/drive/folders/1vrv5xCewIwZmCcJb_pNfOKP_15bAwX0j)
+  
   **Author** : F0DH1L
 flags:
   - Alphabit{PYTH0N_1S_TH3_B3ST_TH1NG_3V3R}
@@ -24,8 +26,6 @@ topics:
 tags:
   - python3
 
-files:
-  - challenge/challenge.py
 
 # DO NOT CHANGE
 

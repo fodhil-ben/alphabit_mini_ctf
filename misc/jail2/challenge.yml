@@ -9,6 +9,8 @@ description: |
   > you tricked me now i will make it harder for you
   > flag in flag.txt
 
+  > [challenge.py](https://drive.google.com/drive/folders/1xi1_Yd_cNQArx5GoTrrdziOaAB4ohK4R)
+
   **Author** : F0DH1L
 flags:
   - Alphabit{BL4CKL1STS_W3R3_M4D3_T0_B3_BYP4SS3D}
@@ -26,9 +28,7 @@ tags:
   - python
   - linux
 
-files:
-  - challenge/challenge.py
-  
+
 # DO NOT CHANGE
 
 state: hidden

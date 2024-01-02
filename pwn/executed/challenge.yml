@@ -6,7 +6,10 @@ category: pwn
 difficulty: medium
 
 description: |
-  > im new to c language im making some basic functions. 
+  > im new to c language im making some basic functions.
+
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
+
   **Author** : F0DH1L
 flags:
   - Alphabit{$H3LLC0D3_G0T_1NJ3C73D_1NT0_7H3_$T4CK}
@@ -22,10 +25,7 @@ connection_info: connection_info
 topics:
   - shellcode
 
-files:
-  - challenge/chall
-  - challenge/chall.c
-  
+
 # DO NOT CHANGE
 
 state: hidden
