@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > My friend said he sent me a secret message, He said there's a chef that can help me recover the message
+  >[chall.txt](https://drive.google.com/drive/u/1/folders/1m8an94q0MFZwI_HqpZyRQ7XqQvYwdvqZ)
 
   **Author** : Graychi
 flags:
@@ -26,8 +27,6 @@ topics:
 tags:
   - bases?
 
-files:
-  - challenge/chall.txt
   
 # DO NOT CHANGE
 

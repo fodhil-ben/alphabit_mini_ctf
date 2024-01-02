@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > My friend sent me a jpg image but something aint right, right?
+  >[chall.wav] (https://drive.google.com/drive/u/1/folders/19LosTJ5hrEJD7U2tQZhMf4oRZ9QEBbDE)
 
   **Author** : Graychi
 flags:
@@ -26,8 +27,6 @@ topics:
 tags:
   - Stego
 
-files:
-  - challenge/chall.wav
   
 # DO NOT CHANGE
 
