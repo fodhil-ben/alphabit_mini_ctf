@@ -4,7 +4,7 @@ services:
   server:
     build: .
     ports:
-      - 1001:1001
+      - 1302:1001
     deploy:
       replicas: 1
       restart_policy:

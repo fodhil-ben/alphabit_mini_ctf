@@ -9,8 +9,8 @@ description: |
   > After Thanos's snap, half of humanity disappeared. Director Colonel Nick Fury was one of them. Your mission is to recover his password so that we can access the needed informations. 
 
   > Wrap the password in the flag format: "Alphabit{PASSWORD}"
-  >[first]
-  (https://drive.google.com/drive/u/0/folders/1s2fFKBloy8glzqTWnkdGhacO_whGGfH1)
+  
+  >[first](https://drive.google.com/drive/u/0/folders/1s2fFKBloy8glzqTWnkdGhacO_whGGfH1)
   >
   **Author** : blue._.g0
 flags:
@@ -19,7 +19,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:

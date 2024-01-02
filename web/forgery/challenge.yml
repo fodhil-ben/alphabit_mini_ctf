@@ -16,10 +16,10 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40
     minimum: 50
 
-connection_info: connection_info
+connection_info: http://35.228.220.66:1201
 
 topics:
   - ssrf
@@ -34,26 +34,4 @@ state: hidden
 
 version: "0.1"
 
-deployment:
-  autoban: false
-  egress: "allow"
-  name: ssrf
-  deployed: false
-  replicasNumber: 1
-  type: http 
-  dockerImage: ssrf
-  # If the challenge don't expose any port then leave it empty
-  containerPort: 80
-  limits:
-    cpu: 200m
-    memory: 500Mi 
-  requests:
-    cpu: 100m
-    memory: 200Mi 
-  healthCheck:
-    initialDelaySeconds: 10
-    periodSeconds: 30
-  other: 
-    # parameters of pod annotations 
-    podAnnotations: {}
 

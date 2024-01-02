@@ -1,5 +1,5 @@
-name: We Will Rock You
 
+name: Win rayah
 author: Graychi
 author_link: https://github.com/NassimMansouri
 
@@ -7,26 +7,26 @@ category: forensics
 difficulty: easy
 
 description: |
-  > https://www.youtube.com/watch?v=-tJYN-eG1zk
-  >[vault.zip] (https://drive.google.com/drive/u/1/folders/18nIkLUAQ1DD3PutEYnlcq48QiRXOdERx)
+  > Something feels wrong about this song, can you find it ?
+  > [chall.wav] (https://drive.google.com/drive/u/1/folders/1iwE0_B4SHtXGiJ9dDLW9GjpDk4kygmdM)
 
   **Author** : Graychi
 flags:
-  - Alphabit{W3_w1lL_R0cK_y0U_S1111111ng_1t}
+  - Alphabit{My_34rS_c4N_h34R_s0_C4n_mY_3y3S}
 type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
-    minimum: 50 
+    decay: 40 # leave it like this
+    minimum: 50
 
 connection_info: connection_info
 
 topics:
-  - stego
+  - wav
 
 tags:
-  - stego
+  - wav
 
 
   

@@ -7,12 +7,12 @@ difficulty: easy
 
 description: |
   > Hello agent, we've chosen to refresh our identities. please acquire yours as well.
-
+  > https://drive.google.com/drive/u/0/folders/1rtMvGwrQGS28Gdk7nu_7oNuQc52kAYB2
+  
   > Please note that there could be occasions when the machine malfunctions
 
   > Note : Ensure to input your name
-  >[second]
-  (https://drive.google.com/drive/u/0/folders/1rtMvGwrQGS28Gdk7nu_7oNuQc52kAYB2)
+  >[second](https://drive.google.com/drive/u/0/folders/1rtMvGwrQGS28Gdk7nu_7oNuQc52kAYB2)
   >
   **Author** : blue._.g0
 flags:
@@ -21,7 +21,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:
@@ -29,9 +29,6 @@ topics:
 
 tags:
   - rev
-
-
-
 
 # DO NOT CHANGE
 
