@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > What do you call a group of characters ? 
+  >[regular.jpg] (https://drive.google.com/drive/u/1/folders/13RCFP9hRa_OEWa4JX_piYVgLkfFYnqqP)
 
   **Author** : Graychi
 flags:
@@ -26,8 +27,6 @@ topics:
 tags:
   - stego
 
-files:
-  - challenge/regular.jpg
   
 # DO NOT CHANGE
 

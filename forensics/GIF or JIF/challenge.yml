@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > My friend sent me a puzzle but it seems as if the file is broken, can you help me fix it ? 
+  [broken.gif] (https://drive.google.com/drive/u/1/folders/1TjPBRmYlWpjgy6u6xSfrENYZTP3SNYEO)
 
   **Author** : Graychi
 flags:
@@ -26,8 +27,6 @@ topics:
 tags:
   - magic bytes, QR CODE
 
-files:
-  - challenge/broken.gif
   
 # DO NOT CHANGE
 

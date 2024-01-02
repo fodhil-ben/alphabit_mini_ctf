@@ -8,6 +8,7 @@ difficulty: easy
 
 description: |
   > https://www.youtube.com/watch?v=-tJYN-eG1zk
+  >[vault.zip] (https://drive.google.com/drive/u/1/folders/18nIkLUAQ1DD3PutEYnlcq48QiRXOdERx)
 
   **Author** : Graychi
 flags:
@@ -17,7 +18,7 @@ value: 500
 extra:
     initial: 500
     decay: ${DECAY} # leave it like this
-    minimum: 50
+    minimum: 50 
 
 connection_info: connection_info
 
@@ -27,8 +28,7 @@ topics:
 tags:
   - stego
 
-files:
-  - challenge/app.js
+
   
 # DO NOT CHANGE
 
