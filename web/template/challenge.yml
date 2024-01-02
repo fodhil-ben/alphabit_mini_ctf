@@ -21,13 +21,10 @@ extra:
 connection_info: connection_info
 
 topics:
-  - sqli
-
-tags:
-  - sqli
+  - ssti
 
 files:
-  - challenge/app.js
+  - challenge/app.py
   
 # DO NOT CHANGE
 
@@ -38,11 +35,11 @@ version: "0.1"
 deployment:
   autoban: false
   egress: "allow"
-  name: sqli
+  name: template
   deployed: false
   replicasNumber: 1
   type: http 
-  dockerImage: sqli
+  dockerImage: template
   # If the challenge don't expose any port then leave it empty
   containerPort: 80
   limits:

@@ -2,9 +2,9 @@
   "name": "challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",

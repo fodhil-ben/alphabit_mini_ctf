@@ -2,9 +2,9 @@
   "name": "internal",
   "version": "1.0.0",
   "description": "",
-  "main": "app2.js",
+  "main": "internal.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node internal.js"
   },
   "keywords": [],
   "author": "",

@@ -24,6 +24,9 @@ topics:
 tags:
   - python3
 
+files:
+  - challenge/challenge.py
+
 # DO NOT CHANGE
 
 state: hidden

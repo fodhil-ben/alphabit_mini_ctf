@@ -27,8 +27,8 @@ tags:
   - ssrf
 
 files:
-  - challenge/main/app.js
-  - challenge/internal/app.js
+  - challenge/main/main.js
+  - challenge/internal/internal.js
 
 # DO NOT CHANGE
 

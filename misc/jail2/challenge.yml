@@ -26,6 +26,9 @@ tags:
   - python
   - linux
 
+files:
+  - challenge/challenge.py
+  
 # DO NOT CHANGE
 
 state: hidden
