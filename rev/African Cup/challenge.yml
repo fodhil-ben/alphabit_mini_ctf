@@ -1,0 +1,60 @@
+name: African Cup
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: rev
+difficulty: medium
+
+description: |
+  > The can is indoors. Let's play a game and try to guess my predictions!
+  >[can]
+  (https://drive.google.com/drive/u/0/folders/13My4VrPyOBeuNuuQ1U0kQoXFNT3t_bdu)
+  >
+  **Author** : blue._.g0
+flags:
+  - Alphabit{0ne_Two_tHr33_v1Va_L4lG3ri3!}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - rev
+
+tags :
+  -rev
+  -medium
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+deployment:
+  autoban: false
+  egress: "allow"
+  name: African Cup
+  deployed: false
+  replicasNumber: 1
+  type: http 
+  dockerImage: African Cup
+  # If the challenge don't expose any port then leave it empty
+  containerPort: 80
+  limits:
+    cpu: 200m
+    memory: 500Mi 
+  requests:
+    cpu: 100m
+    memory: 200Mi 
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  other: 
+    # parameters of pod annotations 
+    podAnnotations: {}
