@@ -7,7 +7,7 @@ difficulty: easy
 
 description: |
   > My friend sent me a jpg image but something aint right, right?
-  >[chall.wav] (https://drive.google.com/drive/u/1/folders/19LosTJ5hrEJD7U2tQZhMf4oRZ9QEBbDE)
+  >[chall.wav](https://drive.google.com/drive/u/1/folders/19LosTJ5hrEJD7U2tQZhMf4oRZ9QEBbDE)
 
   **Author** : Graychi
 flags:
@@ -19,7 +19,6 @@ extra:
     decay: 40 # leave it like this
     minimum: 50
 
-connection_info: connection_info
 
 topics:
   - Stego

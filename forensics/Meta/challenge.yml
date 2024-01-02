@@ -7,7 +7,7 @@ difficulty: easy
 
 description: |
   > I've heard a lot of comments recently about an upcomming event!
-  >[alpha.png] (https://drive.google.com/drive/u/1/folders/1Hqeaf832LWmoyS2oi_eSkardQnFo_mAl)
+  >[alpha.png](https://drive.google.com/drive/u/1/folders/1Hqeaf832LWmoyS2oi_eSkardQnFo_mAl)
 
   **Author** : Graychi
 flags:
@@ -18,8 +18,6 @@ extra:
     initial: 500
     decay: 40 # leave it like this
     minimum: 50
-
-connection_info: connection_info
 
 topics:
   - easy
