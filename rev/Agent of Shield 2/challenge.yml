@@ -1,0 +1,38 @@
+name: Assemble
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: rev
+difficulty: easy
+
+description: |
+  > Hello agent, we've chosen to refresh our identities. please acquire yours as well.
+
+  > Please note that there could be occasions when the machine malfunctions
+
+  > Note : Ensure to input your name
+  **Author** : blue._.g0
+flags:
+  - Alphabit{you-270-455-agent}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - rev
+
+tags:
+  - rev
+
+files:
+  - https://drive.google.com/drive/u/0/folders/1rtMvGwrQGS28Gdk7nu_7oNuQc52kAYB2
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

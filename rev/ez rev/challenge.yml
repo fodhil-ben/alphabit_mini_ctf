@@ -1,0 +1,34 @@
+name: EZ_RE
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: rev
+difficulty: easy
+
+description: |
+  > As yalat3r3ch always says, if you wanna learn reverse this challenge is for you
+  **Author** : blue._.g0
+flags:
+  - Alphabit{X0r_c4N_mAke_1ncR3d1bl3_tH1nGs}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+topics:
+  - rev
+
+tags:
+  - rev
+
+files:
+  - https://drive.google.com/drive/u/0/folders/12GkOVuVISGEy0gD2DWIKs-wmhBn6rhad
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
