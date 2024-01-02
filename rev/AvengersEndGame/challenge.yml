@@ -9,6 +9,9 @@ description: |
   > The legendary trio can't defeat thanos and his army alone!!!
 
   > Can you bring back Sam and the others?
+
+  > https://drive.google.com/drive/u/0/folders/1No2Ny08lAdtSXSxzxhmiezACKQk6Qhe2
+  
   **Author** : blue._.g0
 flags:
   - Alphabit{Y0u_H3aR_Me?_0N_Y0uR_L3ft!!}
@@ -16,7 +19,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:
@@ -25,9 +28,6 @@ topics:
 tags:
   - Assembly
   - rev
-
-files:
-  - https://drive.google.com/drive/u/0/folders/1No2Ny08lAdtSXSxzxhmiezACKQk6Qhe2
 
 # DO NOT CHANGE
 

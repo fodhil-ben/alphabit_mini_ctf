@@ -15,7 +15,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:
@@ -30,26 +30,4 @@ state: hidden
 
 version: "0.1"
 
-deployment:
-  autoban: false
-  egress: "allow"
-  name: privilege
-  deployed: false
-  replicasNumber: 1
-  type: http 
-  dockerImage: privilege
-  # If the challenge don't expose any port then leave it empty
-  containerPort: 80
-  limits:
-    cpu: 200m
-    memory: 500Mi 
-  requests:
-    cpu: 100m
-    memory: 200Mi 
-  healthCheck:
-    initialDelaySeconds: 10
-    periodSeconds: 30
-  other: 
-    # parameters of pod annotations 
-    podAnnotations: {}
-
+connection_info: nc -v 35.228.220.66 1103

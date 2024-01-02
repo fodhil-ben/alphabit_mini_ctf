@@ -12,13 +12,11 @@ description: |
 flags:
   - Alphabit{Param3t3r_Qu3st}
 type: dynamic
-value: 500
-extra:
-  initial: 500
-  decay: ${DECAY} # leave it like this
-  minimum: 50
+initial: 500
+decay: 40 # leave it like this
+minimum: 50
 
-connection_info: connection_info
+connection_info:  nc -v 35.228.220.66 1302
 
 topics:
   - pwn
@@ -36,25 +34,3 @@ state: hidden
 
 version: "0.1"
 
-deployment:
-  autoban: false
-  egress: "allow"
-  name: deadc0de
-  deployed: false
-  replicasNumber: 1
-  type: http
-  dockerImage: deadc0de
-  # If the challenge don't expose any port then leave it empty
-  containerPort: 80
-  limits:
-    cpu: 200m
-    memory: 500Mi
-  requests:
-    cpu: 100m
-    memory: 200Mi
-  healthCheck:
-    initialDelaySeconds: 10
-    periodSeconds: 30
-  other:
-    # parameters of pod annotations
-    podAnnotations: {}
