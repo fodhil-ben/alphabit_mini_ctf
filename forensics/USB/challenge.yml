@@ -7,7 +7,7 @@ difficulty: medium
 
 description: |
   > Your mission, should you choose to accept it, is to dissect a captured USB data transfer using Wireshark and unveil a concealed image. Navigate through intricate protocols, decode cryptic patterns, and emerge victorious as you decipher the USB enigma. Are you ready to prove your hacking prowess and conquer this challenge? The digital heist awaits – decode, dissect, and triumph!
-  >[chall.pcapng] (https://drive.google.com/drive/u/1/folders/1MZfD2KtoUoRKmosQJPld9w_c3kgKcSQs)
+  >[chall.pcapng](https://drive.google.com/drive/u/1/folders/1MZfD2KtoUoRKmosQJPld9w_c3kgKcSQs)
 
   **Author** : Graychi
 flags:
@@ -16,10 +16,8 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
-
-connection_info: connection_info
 
 topics:
   - usb

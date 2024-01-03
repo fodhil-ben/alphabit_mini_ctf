@@ -1,0 +1,33 @@
+name: Palestinian_Friend
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > You know my friend yahya ? he is a great person from palestain
+
+  **Author** : blue._.g0
+flags:
+  - Alphabit{Fr0m_7h3_r1V3r_To_7he_S3a_p4l3s7a1n_w1ll_be_fr33}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+topics:
+  - OSINT
+
+tags:
+  - OSINT
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
