@@ -1,0 +1,35 @@
+name: Base64
+author: blue._.g0
+author_link: https://github.com/blueg0
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > You know base64 ? try to recover the flag 
+
+  > QWxwaGFiaXR7YjQ1MzY0X0=RvMzVuJ3RfYzBudEFpbl8zcXU0bF81aUduX0luXzdoM19tMURkbDN9==
+
+  **Author** : blue._.g0
+flags:
+  - Alphabit{b45364_Do35n't_c0ntAin_3qu4l_5iGn_In_7h3_m1Ddl3}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+topics:
+  - misc
+
+tags:
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

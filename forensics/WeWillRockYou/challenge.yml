@@ -1,0 +1,37 @@
+name: We Will Rock You
+
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: easy
+
+description: |
+  > https://www.youtube.com/watch?v=-tJYN-eG1zk
+  >[vault.zip](https://drive.google.com/drive/u/1/folders/18nIkLUAQ1DD3PutEYnlcq48QiRXOdERx)
+
+  **Author** : Graychi
+flags:
+  - Alphabit{W3_w1lL_R0cK_y0U_S1111111ng_1t}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+topics:
+  - stego
+
+tags:
+  - stego
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+

@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > What do you call a group of characters ? 
+  >[regular.jpg](https://drive.google.com/drive/u/1/folders/13RCFP9hRa_OEWa4JX_piYVgLkfFYnqqP)
 
   **Author** : Graychi
 flags:
@@ -15,10 +16,9 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
-connection_info: connection_info
 
 topics:
   - stego
@@ -26,8 +26,6 @@ topics:
 tags:
   - stego
 
-files:
-  - challenge/regular.jpg
   
 # DO NOT CHANGE
 

@@ -1,17 +1,17 @@
-name: We Will Rock You
-
+name: Suffer
 author: Graychi
 author_link: https://github.com/NassimMansouri
 
-category: forensics
+category: misc
 difficulty: easy
 
 description: |
-  > https://www.youtube.com/watch?v=-tJYN-eG1zk
+  > You know what you have to do 
+  >[unzipme.zip](https://drive.google.com/drive/u/1/folders/1QAyHU0aG-0ciF7K-B5uRuKiTkBpaX-7p)
 
   **Author** : Graychi
 flags:
-  - Alphabit{W3_w1lL_R0cK_y0U_S1111111ng_1t}
+  - Alphabit{Unz1P_Unz1P_Unz1P_Unz1P_Unz1P_H3r3_w3_g0_4G41n}
 type: dynamic
 value: 500
 extra:
@@ -22,13 +22,11 @@ extra:
 connection_info: connection_info
 
 topics:
-  - stego
+  - unzip
 
 tags:
-  - stego
+  - zip
 
-files:
-  - challenge/app.js
   
 # DO NOT CHANGE
 

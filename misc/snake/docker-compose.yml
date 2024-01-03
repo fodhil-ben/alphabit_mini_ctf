@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "1114:1114"
+      - "1104:1114"
 
     deploy:
       replicas: 1

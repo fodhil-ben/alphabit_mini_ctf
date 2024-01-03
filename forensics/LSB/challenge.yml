@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > My friend sent me a jpg image but something aint right, right?
+  >[chall.wav](https://drive.google.com/drive/u/1/folders/19LosTJ5hrEJD7U2tQZhMf4oRZ9QEBbDE)
 
   **Author** : Graychi
 flags:
@@ -15,10 +16,9 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
-connection_info: connection_info
 
 topics:
   - Stego
@@ -26,8 +26,6 @@ topics:
 tags:
   - Stego
 
-files:
-  - challenge/chall.wav
   
 # DO NOT CHANGE
 

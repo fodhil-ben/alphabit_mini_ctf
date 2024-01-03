@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > An easy challenge to kickstart your exploration into the world of crypto
+  >[chall.txt](https://drive.google.com/drive/folders/1Lv_hsVQAB7bnS4ERCGYA2R3GZZcr2goQ)
 
   **Author** : Mouh_Bbt
 flags:
@@ -15,7 +16,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:

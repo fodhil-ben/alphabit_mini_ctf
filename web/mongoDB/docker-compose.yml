@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 1330:1330
+      - 1204:1330
     depends_on:
       - database
     environment:

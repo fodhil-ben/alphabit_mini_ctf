@@ -7,6 +7,7 @@ difficulty: easy
 
 description: |
   > Someone has changed the order of my png chunks, can you help me fix them ?
+  >[chall.png](https://drive.google.com/drive/u/1/folders/1AhMAe-_S4BmOpLKTfKyW04Y5N6dg_KwC)
 
   **Author** : Graychi
 flags:
@@ -15,10 +16,8 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
-
-connection_info: connection_info
 
 topics:
   - png
@@ -26,8 +25,7 @@ topics:
 tags:
   - png
 
-files:
-  - challenge/chall.png
+
   
 # DO NOT CHANGE
 

@@ -2,11 +2,14 @@ name: Assemble
 author: blue._.g0
 author_link: https://github.com/blueg0
 
-category: rev
+category: reverse
 difficulty: easy
 
 description: |
   > What do you know about assembly ?
+
+  > [Assemble.S](https://drive.google.com/drive/u/0/folders/1_DJv6DxKXas-UNz9pJyAOaxsAkSZTJJM)
+
   **Author** : blue._.g0
 flags:
   - Alphabit{hmmm_I_c4N_D0_tH1s_4ll_D4y}
@@ -14,7 +17,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 40 # leave it like this
     minimum: 50
 
 topics:
@@ -23,11 +26,6 @@ topics:
 tags:
   - Assembly
   - rev
-
-files:
-  - https://drive.google.com/drive/u/0/folders/1_DJv6DxKXas-UNz9pJyAOaxsAkSZTJJM
-
-
 
 # DO NOT CHANGE
 
