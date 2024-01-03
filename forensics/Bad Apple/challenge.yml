@@ -1,0 +1,40 @@
+name: Bad Apple
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: forensics
+difficulty: medium
+
+description: |
+  > John was chilling on discord, until he got a message from someone he doesnt recognize, he sent him a link for a weird video after clicking the link, John computer went all black and never seen the light, can you discover what happened
+  >[John.zip](https://drive.google.com/drive/u/1/folders/1dz3pcV8RebW4G6QxLg68-xL7AqTUZd6e)
+
+  **Author** : Graychi
+flags:
+  - Alphabit{Gu33s_Y0u_c4N_r34lLy_g00D_4t_R3aD1!Ng_H1sT0rY_hUH!}
+
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - disk
+
+tags:
+  - disk
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+
