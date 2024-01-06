@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Hunter</title>
+    <link rel="stylesheet" href="./static/output.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+    <!-- jQuery Transit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.js"
+        integrity="sha256-mkdmXjMvBcpAyyFNCVdbwg4v+ycJho65QLDwVE3ViDs=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="inviteContainer">
+
+            <div id="container">
+                <div id="inviteContainer">
+                    <div class="logoContainer">
+                        <img class="text" src="./static/chrollo.png" alt="chrollo Image">
+                    </div>
+                    <div class="acceptContainer">
+
+                        <form id="uploadForm" enctype='multipart/form-data' action='upload.php' method='post' class="submit">
+                            <h1>UPLOAD YOUR NEN ABILITY</h1>
+                            <div class="formContainer">
+                                <div class="formDiv" style="transition-delay: 0.2s">
+                                    <p>SELECT FILE</p>
+                                    <input type="file" name="file" id="fileInput" required="">
+                                </div>
+                                <div class="formDiv" style="transition-delay: 0.6s">
+                                    <button class="acceptBtn" type="submit">Upload</button>
+                                    <span class="register">Need a HINT? <a href="./hint.html">CLICK HERE!</a></span>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./static/script.js"></script>
+</body>
+
+</html>
