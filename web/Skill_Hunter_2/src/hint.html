@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Hunter - Hint Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #512DA8; /* Purple background color */
+            font-family: 'Arial', sans-serif;
+            color: #ffffff; /* White text color */
+        }
+
+        .content-container {
+            text-align: center;
+            background-color: #673AB7; /* Darker purple background color */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .image-container {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #ffffff; /* White text color */
+        }
+
+        code {
+            display: block;
+            background-color: #9C27B0; /* Lighter purple background color for code block */
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            overflow-x: auto;
+            color: #ffffff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+
+<div class="content-container">
+    <div class="image-container">
+        <img src="./static/hint.png" alt="Your Image Description">
+    </div>
+    <p>`exif_imagetype` fish reads first bytes of the input file and returns the numeric value corresponding to the file type. you can read the documentation in this link   <a href="https://www.php.net/manual/fr/function.exif-imagetype.php">click here</a></p>
+    <code>
+        &lt;?php
+        session_start();
+        
+        if (isset($_FILES['file'])) {
+            if ($_FILES['file']['size'] &lt; 5000) {
+                if (isset($_SESSION['id'])) 
+                    $random = $_SESSION['id'];
+                else {
+                    $random = bin2hex(random_bytes(16));
+                    $_SESSION['id'] = $random;
+                }
+        
+                $dir = 'uploads/' . $random; 
+                if (!is_dir($dir)) 
+                    mkdir($dir, 0777, true);
+        
+                $name = $_FILES['file']['name'];
+                $temp_path = $_FILES['file']['tmp_name'];
+                $path = $dir .'/'. $name;
+        
+                // Check if the uploaded file is an image using exif_imagetype
+                if (exif_imagetype($temp_path)) {
+                    if (move_uploaded_file($temp_path, $path)) {
+                        echo '<!DOCTYPE html><html>
+        <head>
+        <title>Skill Hunter</title>
+        </head>
+        <body>
+        <div class="align-middle well">
+        <div class="container my-5 px-4">
+            <h3>Thief book</h3>
+            <p>the NEN ability is successfully stolen... You can find it at this page <a href="'. $path . '">here</a></p>
+        </div>
+        </div>
+        </body>
+        </html> ';
+                    }
+                } else {
+                    die("Uploaded file is not a valid image.");
+                }
+            } else {
+                die("Ability is too large, the book is meant for small abilities only");
+            }
+        }
+        else {
+            echo "No file sent";
+        }
+        ?
+        &gt;
+    </code>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+"You did well bypassing the first fish. Now, I'll provide you with the secret of the second fish. Consider encoding the image as a set of bytes or using encryption. Then, regenerate the image using the output bytes from the encrypted text on your computer. The flag is embedded in the image."

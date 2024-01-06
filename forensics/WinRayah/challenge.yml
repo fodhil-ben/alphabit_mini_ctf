@@ -8,7 +8,7 @@ difficulty: easy
 
 description: |
   > Something feels wrong about this song, can you find it ?
-  > [chall.wav] (https://drive.google.com/drive/u/1/folders/1iwE0_B4SHtXGiJ9dDLW9GjpDk4kygmdM)
+  > [chall.wav](https://drive.google.com/drive/u/1/folders/1iwE0_B4SHtXGiJ9dDLW9GjpDk4kygmdM)
 
   **Author** : Graychi
 flags:
@@ -20,7 +20,6 @@ extra:
     decay: 40 # leave it like this
     minimum: 50
 
-connection_info: connection_info
 
 topics:
   - wav

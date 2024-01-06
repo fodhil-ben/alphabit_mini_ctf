@@ -7,7 +7,8 @@ difficulty: medium
 
 description: |
   > do you think you have any privileges, believe me you don't. 
-
+  > password: ctf
+  
   **Author** : F0DH1L
 flags:
   - Alphabit{PR1V1L3G3_3$CALAT10N_U$1NG_$UD0}

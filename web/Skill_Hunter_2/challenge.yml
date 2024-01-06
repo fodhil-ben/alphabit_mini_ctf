@@ -1,0 +1,19 @@
+author: dhayaa
+author_link: https://github.com/dhiaae
+category: web
+description: "In a Nen-driven world, Chrollo's "Skill Hunter" ability grows stronger. As a CTF player, can you still exploit its enhanced security?"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge.zip
+flags:
+- Alphabit{n0w_y0u_4r3_4_t4rg3t_0f_th3_sp1d3r_tr0up}
+name: Skill Hunter 2
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

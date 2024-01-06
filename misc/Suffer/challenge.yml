@@ -1,0 +1,38 @@
+name: Suffer
+author: Graychi
+author_link: https://github.com/NassimMansouri
+
+category: misc
+difficulty: easy
+
+description: |
+  > You know what you have to do 
+  >[unzipme.zip](https://drive.google.com/drive/u/1/folders/1QAyHU0aG-0ciF7K-B5uRuKiTkBpaX-7p)
+
+  **Author** : Graychi
+flags:
+  - Alphabit{Unz1P_Unz1P_Unz1P_Unz1P_Unz1P_H3r3_w3_g0_4G41n}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+connection_info: connection_info
+
+topics:
+  - unzip
+
+tags:
+  - zip
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+
+

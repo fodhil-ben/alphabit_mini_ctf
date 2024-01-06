@@ -9,6 +9,7 @@ description: |
   > Have you ever heard about the RSA encryption algorithm?  
   > Use it to unveil the hidden message then wrap it with Alphabit{} to solve the challenge 
 
+  >[chall.txt](https://drive.google.com/drive/folders/1Ap2HwqvOnQwIu7uvIKMtea6ymdBve5kZ)
   **Author** : Mouh_Bbt
 flags:
   - Alphabit{SM4LL_N_PR0BL3M}

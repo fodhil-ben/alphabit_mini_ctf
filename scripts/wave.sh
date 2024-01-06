@@ -1,40 +1,38 @@
 #!/bin/bash
 
 # List of paths to Docker Compose files for list 1
-compose_paths_2=(
-  "./web/SQLi_1/docker-compose.yml"
-  "./web/SQLi_2/docker-compose.yml"
-  "./web/SQLi_3/docker-compose.yml"
-  "./web/SQLi_4/docker-compose.yml"
-  "./web/login/docker-compose.yml"
-  "./misc/Secret/docker-compose.yml"
-  "./misc/yaml/docker-compose.yml"
-  "./pwn/echo/docker-compose.yml"
-
-)
-
 compose_paths_1=(
-  "./web/bigHEAD/docker-compose.yml"
-  "./web/fREe/docker-compose.yml"
-  "./web/weird/docker-compose.yml"
-  "./web/Inspector/docker-compose.yml"
-  "./web/PingPong1/docker-compose.yml"
-  "./web/PingPong2/docker-compose.yml"
-  "./misc/matrix/docker-compose.yml"
-  "./misc/Path/docker-compose.yml"
-  "./misc/Autobash/docker-compose.yml"
-  "./pwn/Crash/docker-compose.yml"
-  "./pwn/DeadBeef/docker-compose.yml"
-  "./pwn/ret2win/docker-compose.yml"
+  "./misc/jail1/docker-compose.yml"
+  "./misc/privilege/docker-compose.yml"
+  "./pwn/executed/docker-compose.yml"
+  "./pwn/format/docker-compose.yml"
+  "./pwn/Bird_Cage/docker-compose.yml"
+  "./pwn/deadc0de/docker-compose.yml"
+  "./pwn/secret_number_game/docker-compose.yml"
+  "./rev/African Cup/docker-compose.yml"
+  "./web/inspection/docker-compose.yml"
+  "./web/headers_hunter/docker-compose.yml"
+  "./web/mongoDB/docker-compose.yml"
+  "./web/SQLI/docker-compose.yml"
+  "./web/Skill_Hunter_1/docker-compose.yml"
 )
 
-compose_paths_3=(
-  "./web/blogger/docker-compose.yml"
-  "./misc/py1/docker-compose.yml"
-  "./misc/py2/docker-compose.yml"
-  "./misc/Guess/docker-compose.yml"
-  "./crypto/flagger/docker-compose.yml"
+compose_paths_2=(
+  "./misc/snake/docker-compose.yml"
+  "./misc/jail2/docker-compose.yml"
+  "./pwn/jail/docker-compose.yml"
+  "./pwn/sixty_four/docker-compose.yml"
+  "./pwn/thirty_two/docker-compose.yml"
+  "./pwn/strings/docker-compose.yml"
+  "./rev/Cards Master/docker-compose.yml"
+  "./web/Skill_Hunter_2/docker-compose.yml"
+  "./web/Skill_Hunter_3/docker-compose.yml"
+  "./web/template/docker-compose.yml"
+  "./web/forgery/docker-compose.yml"
+
 )
+
+
 # Check if an integer argument was passed
 if [[ ! $1 =~ ^[0-9]+$ ]]; then
   echo "Please provide an integer argument."

@@ -2,16 +2,14 @@ name: Agent of Shield 1
 author: blue._.g0
 author_link: https://github.com/blueg0
 
-category: rev
+category: reverse
 difficulty: easy
 
 description: |
-  > After Thanos's snap, half of humanity disappeared. Director Colonel Nick Fury was one of them. Your mission is to recover his password so that we can access the needed informations. 
-
-  > Wrap the password in the flag format: "Alphabit{PASSWORD}"
+  > After Thanos's snap, half of humanity disappeared. Director Colonel Nick Fury was one of them. Your mission is to recover his password so that we can access the needed information. <br> Wrap the password in the flag format: "Alphabit{PASSWORD}"
   
-  >[first](https://drive.google.com/drive/u/0/folders/1s2fFKBloy8glzqTWnkdGhacO_whGGfH1)
-  >
+  > [first](https://drive.google.com/drive/u/0/folders/1s2fFKBloy8glzqTWnkdGhacO_whGGfH1)
+  
   **Author** : blue._.g0
 flags:
   - Alphabit{0nly_N1cK_FuRy_h4s_l3v3l_10}
