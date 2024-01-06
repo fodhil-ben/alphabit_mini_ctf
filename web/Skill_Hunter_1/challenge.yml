@@ -1,14 +1,14 @@
 author: dhayaa
 author_link: https://github.com/dhiaae
 category: web
-description: "In a Nen-powered world, Chrollo Lucifer's "Skill Hunter" ability reigns supreme. As a CTF player with the power to manipulate systems through malicious codes, exploiting vulnerabilities in Chrollo's skill-stealing book becomes a strategic advantage. Can you win the battle by infiltrating and manipulating his unique Nen ability? It's a clash of hacking skills and Nen mastery."
+description: |
+  In a Nen-powered world, Chrollo Lucifer's "Skill Hunter" ability reigns supreme. As a CTF player with the power to manipulate systems through malicious codes, exploiting vulnerabilities in Chrollo's skill-stealing book becomes a strategic advantage. Can you win the battle by infiltrating and manipulating his unique Nen ability? It's a clash of hacking skills and Nen mastery.
 difficulty: easy
 extra:
-  decay: 15
+  decay: 40
   initial: 500
   minimum: 50
-files:
-- challenge.zip
+connection_info: http://35.228.220.66:1207
 flags:
 - Alphabit{y0ur_N3N_4b1l17y_15_Up10ad_Vu1n3r4b1l17y}
 name: Skill Hunter 1

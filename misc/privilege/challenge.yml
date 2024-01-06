@@ -31,4 +31,4 @@ state: hidden
 
 version: "0.1"
 
-connection_info: nc -v 35.228.220.66 1103
+connection_info: ssh ctf@35.228.220.66 -p 1103

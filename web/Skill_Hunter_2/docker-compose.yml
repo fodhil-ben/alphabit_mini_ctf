@@ -1,5 +1,7 @@
+version: '3'
+
 services:
   app:
     build: .
     ports: 
-      - 2000:80
+      - 1209:80

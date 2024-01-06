@@ -1,4 +1,4 @@
-name: deadc0de
+name: DeadC0de
 author: kanyo
 author_link: https://github.com/Chaelsoo
 
@@ -6,19 +6,20 @@ category: pwn
 difficulty: easy
 
 description: |
-  > basic
-  > [files](https://drive.google.com/drive/u/0/folders/1gOMmC9i7oKiXjNml055gqPe6HReuCXcO) 
+  > basic [files](https://drive.google.com/drive/u/0/folders/1gOMmC9i7oKiXjNml055gqPe6HReuCXcO) 
+  **Author**: kanyo
 
-  **Author** : kanyo
 flags:
   - Alphabit{Param3t3r_Qu3st}
 
 type: dynamic
-initial: 500
-decay: 40 # leave it like this
-minimum: 50
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
 
-connection_info:  nc -v 35.228.220.66 1302
+connection_info: nc -v 35.228.220.66 1302
 
 topics:
   - pwn
