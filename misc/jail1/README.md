@@ -5,7 +5,8 @@
 ## Description
 
   > can you escape
-  > this one is easy, wait for the second one. 
+  > this one is easy, wait for the second one.
+  > flag in flag.txt 
 
 ## Solution
 
