@@ -51,12 +51,6 @@ app.set('views', __dirname + '/views');
     app.get('/', (req, res) => {
         res.render('./index', { error: '', msg: '' })
     });
-    app.get('/all', async (req, res) => {
-        const users = await User.find({ username: 'admin' })
-        console.log(users)
-        res.render('./index', { error: '', msg: users })
-    });
-
     app.listen(port, () => {
         console.log(`Server is running at http://localhost:${port}`);
     });
