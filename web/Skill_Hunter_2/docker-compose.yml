@@ -4,4 +4,4 @@ services:
   app:
     build: .
     ports: 
-      - 1209:80
+      - 1208:80

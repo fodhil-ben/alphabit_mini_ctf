@@ -5,6 +5,7 @@ RUN docker-php-ext-install exif
 
 COPY src/ /var/www/html/
 COPY see_FLAG.png /
-
+RUN useradd -m myuser
+USER myuser
 
 WORKDIR /var/www/html/

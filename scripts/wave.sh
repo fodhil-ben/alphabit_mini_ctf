@@ -24,7 +24,7 @@ compose_paths_2=(
   "./pwn/sixty_four/docker-compose.yml"
   "./pwn/thirty_two/docker-compose.yml"
   "./pwn/strings/docker-compose.yml"
-  "./rev/CardsMaster/docker-compose.yml"
+  "./rev/seed/docker-compose.yml"
   "./web/Skill_Hunter_2/docker-compose.yml"
   "./web/Skill_Hunter_3/docker-compose.yml"
   "./web/template/docker-compose.yml"
