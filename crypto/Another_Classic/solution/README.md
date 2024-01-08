@@ -10,4 +10,4 @@ you need to know that the method used is the substitution cipher
 
 the flag is :
 
-Alphabit{5ub5717u710n_15_n07_c0mpl1c473d}
+Alphabit{Subst1tut10n_1s_n0t_c0mpl1c4t3d}
