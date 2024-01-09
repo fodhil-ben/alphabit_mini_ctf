@@ -1,5 +1,3 @@
 #!/bin/sh
-
-
-node challenge/main/app.js &
-node challenge/internal/app.js
+node challenge/main/main.js &
+node challenge/internal/internal.js

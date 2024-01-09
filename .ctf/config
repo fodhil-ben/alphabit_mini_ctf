@@ -59,4 +59,6 @@ forensics/Chef = forensics/Chef
 forensics/GIForJIF = forensics/GIForJIF
 forensics/LSB = forensics/LSB
 forensics/BadApple/ = forensics/BadApple/
+. = .
+login = login
 

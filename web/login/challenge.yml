@@ -1,0 +1,20 @@
+name: Login
+author: Adel
+category: web
+difficulty: easy
+description: |
+  > I made a login page for my website, but I forgot the password. Can you help me?   
+
+  **Author** : Adel
+flags:
+  - Alphabit{4no7heR_1NJ3C71On_D1d_u_pl4Y_i51cTf}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 40 # leave it like this
+  minimum: 50
+value: 500
+connection_info: http://35.228.220.66:1211
+state: visible
+version: "0.1"
