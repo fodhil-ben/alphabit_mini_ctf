@@ -25,7 +25,7 @@ int main(){
 
      fgets(buffer, sizeof(buffer), stdin);
     
-    if (strcmp(buffer,flag,120)){
+    if (strcmp(buffer,flag,120) == 0 ){
         printf("%s : \n",flag);
     }else{
         puts("You have to know it \n");
