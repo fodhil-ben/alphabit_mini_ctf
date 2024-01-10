@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "unidecode": "^0.1.8"
+  }
+}

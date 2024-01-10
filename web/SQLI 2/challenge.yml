@@ -1,0 +1,35 @@
+name: SQLI
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > im sure u heard about SQL but did you hear about SQLI
+  > [app.js](https://drive.google.com/drive/folders/18CngM8GkJV-7NAEBBPyTAptO3TabQuvq)
+
+  **Author** : F0DH1L
+flags:
+  - Alphabit{N0w_y0u_sh0u1d_pr073c7_y0ur_s3lf_fr0m_SQL_injection}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+connection_info: http://35.228.220.66:1205
+
+topics:
+  - sqli
+
+tags:
+  - sqli
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
