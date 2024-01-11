@@ -1,10 +1,10 @@
-# SQLI
+# SQLI 2
 
-**`Author:`** [F0DH1L](https://github.com/fodhil-ben)
+**`Author:`** [Dhayaa](https://github.com/dhiaae)
 
 ## Description
 
-  > im sure u heard about SQL but did you hear about SQLI
+  > im sure u found sqli so enjoyable without any defenses. let's introduce you to the art of blacklisting
 
 - **Files** 
 - [app.js](./challenge/app.js) 

@@ -11,7 +11,7 @@ const initializeDb = () => {
         password TEXT
         )
         `);
-        db.run(insertUserQuery, ['admin.alphabit', 'supersecretpasswordbrrrrrr'], (err) => {
+        db.run(insertUserQuery, ['admin.alphabit', '$#@3L!0p9Pw#Rfdkjfdshfjhuehwfj'], (err) => {
             if (err) {
                 console.error('Error initializing users:', err.message);
             }
