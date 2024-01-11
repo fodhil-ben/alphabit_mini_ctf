@@ -1,17 +1,17 @@
 name: SQLI
-author: F0DH1L
-author_link: https://github.com/fodhil-ben
+author: Dhayaa
+author_link: https://github.com/dhiaae
 
 category: web
-difficulty: easy
+difficulty: meduim
 
 description: |
-  > im sure u heard about SQL but did you hear about SQLI
-  > [app.js](https://drive.google.com/drive/folders/18CngM8GkJV-7NAEBBPyTAptO3TabQuvq)
+  > im sure u found sqli so enjoyable without any defenses. let's take it a step harder 
+  > [app.js](https://drive.google.com/drive/u/0/folders/1Of9_UADz28ZoHRF3qRYAwYamlKYf3_ni)
 
-  **Author** : F0DH1L
+  **Author** : Dhayaa
 flags:
-  - Alphabit{N0w_y0u_sh0u1d_pr073c7_y0ur_s3lf_fr0m_SQL_injection}
+  - Alphabit{N0_bl4ckl157_15_fl4wl355_wh3n_3mpl0y1ng_th3_un1d3c0d3}
 type: dynamic
 value: 500
 extra:

@@ -14,7 +14,8 @@ app.set('views', __dirname + '/views');
 
 const initializeDb = require('./initializeDb');
 
-const Blacklist = ['>', '<', '=', '"', 'true', 'or', '--', 'and', 'false', ';','select','union','where',' ','admin.alphabit'];
+const Blacklist = ['>', '<', '=', '"', 'true', 'or', '--', 'and', 'false', ';','select','union','where',' ','username','password','|'];
+const AdminBlacklist = Blacklist.concat(['a', 'd', 'm', 'i', 'n', '.']);
 
 function isBlacklisted(value, blacklist) {
     const lowercasedValue = value.toLowerCase();
@@ -30,10 +31,17 @@ app.post('/login', (req, res) => {
     try {
      
 
-        if (isBlacklisted(username, Blacklist) || isBlacklisted(password, Blacklist)) {
-            return res.render('./index', { error: 'Invalid username or password', msg: '' });
+        if (isBlacklisted(username,AdminBlacklist) ) {
+            return res.render('./index', { error: 'Invalid username', msg: '' });
         }
         username = cleanInput(username);
+
+
+        if (isBlacklisted(password, Blacklist) ||isBlacklisted(username,Blacklist) ) {
+            return res.render('./index', { error: 'Invalid password', msg: '' });
+        }
+        
+
         const sqlQuery = `SELECT * FROM users WHERE username = '${username}' AND password = '${password}'`;
         db.get(sqlQuery, (err, row) => {
             if (err) {

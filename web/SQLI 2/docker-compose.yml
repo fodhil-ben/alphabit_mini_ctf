@@ -8,5 +8,5 @@ services:
     ports:
       - 2500:1337
     environment:
-      - FLAG=Alphabit{pr073c7_y0ur_s3lf_fr0m_SQL_injection}
+      - FLAG=Alphabit{N0_bl4ckl157_15_fl4wl355_wh3n_3mpl0y1ng_th3_un1d3c0d3}
     restart: always
