@@ -1,13 +1,13 @@
-# Chef
+# Bad Apple
 
 **`Author:`** [Graychi](https://github.com/NassimMansouri)
 
 ## Description
 
-  >  My friend said he sent me a secret message, He said there's a chef that can help me recover the message
+  >  John was chilling on discord, until he got a message from someone he doesnt recognize, he sent him a link for a weird video after clicking the link, John computer went all black and never seen the light, can you discover what happened
 
 - **Files** 
-- [chall.txt](./challenge/chall.txt) 
+- [John.zip](./challenge/John.zip) 
 
 ## Solution
 
