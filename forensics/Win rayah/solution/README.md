@@ -1,1 +1,1 @@
-soon
+Opening the file in audacity and spectogram we get :
