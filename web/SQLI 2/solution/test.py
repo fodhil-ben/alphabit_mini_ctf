@@ -2,7 +2,7 @@ from unidecode import unidecode
 
 # Original URL with Unicode characters
 url = "àдмìн｡àlphàbìt"
-AdminBlacklist = ['a', 'd', 'm', 'i', 'n']
+AdminBlacklist = ['a', 'd', 'm', 'i', 'n','.']
 
 if any(char in AdminBlacklist for char in url):
     print("Condition: The condition is true.")
