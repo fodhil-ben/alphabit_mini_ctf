@@ -1,4 +1,4 @@
-# Avengers End Game
+# ezRev
 
 **`Author:`** [blue._.g0](https://github.com/blueg0)
 
